@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .relative{
+            background-color:red;
+            width:500px;
+            height:500px;
+            margin: 0 auto;
+            position:relative;/*ảnh tự động chạy vào khung relative*/
+        }
+        img{
+            position: absolute;/*Dùng để thiết lập vị trí của một phần tử
+             nhưng nó sẽ luôn nằm trong một phần tử mẹ đang là relative.*/
+            top:0px;
+            left:0px;
+        }
+    </style>
+</head>
+<body>
+<div class="relative">
+    <img src="https://cdn-images-1.medium.com/max/1200/1*eXIBeNlLhz4Pe6vDrYkXLQ.png"
+         width="100px" height="auto"/>
+    <p>Các giá trị của thuộc tính position</p>
+</div>
+</body>
+</html>

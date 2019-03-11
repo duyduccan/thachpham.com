@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .relative{
+            background-color:red;
+            width:500px;
+            margin: 0 auto;
+            position:relative;/*ảnh tự động chạy vào khung relative*/
+        }
+        p{
+            position:relative;
+            z-index:20;/*nhỏ nằm dưới*/
+        }
+        img{
+            position: static;/*đưa về dạng mặc định k sd dc top, left, z-index*/
+            top:50%;
+            left:50%;
+            z-index:30;/*lớn nằm trên*/
+        }
+    </style>
+</head>
+<body>
+<div class="relative">
+    <img src="https://cdn-images-1.medium.com/max/1200/1*eXIBeNlLhz4Pe6vDrYkXLQ.png"
+         width="100px" height="auto"/>
+    <p>Trong CSS, khi bạn di chuyển bất cứ một phần tử nào bằng các thuộc tính về Box Model như margin hoặc float thì các phần từ bên cạnh nó đều sẽ bị ảnh hưởng.
+        Ví dụ bạn sử dụng margin để chuyển phần tử A thì cái thằng bên cạnh nó cũng sẽ di chuyển theo và tất cả các phần tử khác đều sẽ bị ảnh hưởng theo.
+        Vậy nếu như bạn muốn di chuyển một phần tử nào đó mà không ảnh hưởng đến bố cục của website thì sẽ có một giải pháp đó là sử dụng thuộc tính position.
+        Cái tên nói lên tất cả, position là thuộc tính giúp bạn tùy chỉnh khu vực hiển thị cho phần tử và việc tùy chỉnh này không hề làm ảnh hưởng đến các phần tử khác
+        Trong CSS, khi bạn di chuyển bất cứ một phần tử nào bằng các thuộc tính về Box Model như margin hoặc float thì các phần từ bên cạnh nó đều sẽ bị ảnh hưởng. Ví dụ bạn sử dụng margin để chuyển phần tử A thì cái thằng bên cạnh nó cũng sẽ di chuyển theo và tất cả các phần tử khác đều sẽ bị ảnh hưởng theo.
+
+        Vậy nếu như bạn muốn di chuyển một phần tử nào đó mà không ảnh hưởng đến bố cục của website thì sẽ có một giải pháp đó là sử dụng thuộc tính position. Cái tên nói lên tất cả, position là thuộc tính giúp bạn tùy chỉnh khu vực hiển thị cho phần tử và việc tùy chỉnh này không hề làm ảnh hưởng đến các phần tử khác
+        Trong CSS, khi bạn di chuyển bất cứ một phần tử nào bằng các thuộc tính về Box Model như margin hoặc float thì các phần từ bên cạnh nó đều sẽ bị ảnh hưởng. Ví dụ bạn sử dụng margin để chuyển phần tử A thì cái thằng bên cạnh nó cũng sẽ di chuyển theo và tất cả các phần tử khác đều sẽ bị ảnh hưởng theo.
+
+        Vậy nếu như bạn muốn di chuyển một phần tử nào đó mà không ảnh hưởng đến bố cục của website thì sẽ có một giải pháp đó là sử dụng thuộc tính position. Cái tên nói lên tất cả, position là thuộc tính giúp bạn tùy chỉnh khu vực hiển thị cho phần tử và việc tùy chỉnh này không hề làm ảnh hưởng đến các phần tử khác
+
+        Trong CSS, khi bạn di chuyển bất cứ một phần tử nào bằng các thuộc tính về Box Model như margin hoặc float thì các phần từ bên cạnh nó đều sẽ bị ảnh hưởng. Ví dụ bạn sử dụng margin để chuyển phần tử A thì cái thằng bên cạnh nó cũng sẽ di chuyển theo và tất cả các phần tử khác đều sẽ bị ảnh hưởng theo.
+
+        Vậy nếu như bạn muốn di chuyển một phần tử nào đó mà không ảnh hưởng đến bố cục của website thì sẽ có một giải pháp đó là sử dụng thuộc tính position. Cái tên nói lên tất cả, position là thuộc tính giúp bạn tùy chỉnh khu vực hiển thị cho phần tử và việc tùy chỉnh này không hề làm ảnh hưởng đến các phần tử khác
+        Trong CSS, khi bạn di chuyển bất cứ một phần tử nào bằng các thuộc tính về Box Model như margin hoặc float thì các phần từ bên cạnh nó đều sẽ bị ảnh hưởng. Ví dụ bạn sử dụng margin để chuyển phần tử A thì cái thằng bên cạnh nó cũng sẽ di chuyển theo và tất cả các phần tử khác đều sẽ bị ảnh hưởng theo.
+
+        Vậy nếu như bạn muốn di chuyển một phần tử nào đó mà không ảnh hưởng đến bố cục của website thì sẽ có một giải pháp đó là sử dụng thuộc tính position. Cái tên nói lên tất cả, position là thuộc tính giúp bạn tùy chỉnh khu vực hiển thị cho phần tử và việc tùy chỉnh này không hề làm ảnh hưởng đến các phần tử khác
+        Trong CSS, khi bạn di chuyển bất cứ một phần tử nào bằng các thuộc tính về Box Model như margin hoặc float thì các phần từ bên cạnh nó đều sẽ bị ảnh hưởng. Ví dụ bạn sử dụng margin để chuyển phần tử A thì cái thằng bên cạnh nó cũng sẽ di chuyển theo và tất cả các phần tử khác đều sẽ bị ảnh hưởng theo.
+
+        Vậy nếu như bạn muốn di chuyển một phần tử nào đó mà không ảnh hưởng đến bố cục của website thì sẽ có một giải pháp đó là sử dụng thuộc tính position. Cái tên nói lên tất cả, position là thuộc tính giúp bạn tùy chỉnh khu vực hiển thị cho phần tử và việc tùy chỉnh này không hề làm ảnh hưởng đến các phần tử khác
+
+    </p>
+</div>
+</body>
+</html>
