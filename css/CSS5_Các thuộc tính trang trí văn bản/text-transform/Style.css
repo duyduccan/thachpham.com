@@ -1,0 +1,9 @@
+.trang-tri-capitalize{
+    text-transform: capitalize;/*viết hoa chữ cái đầu tiên*/
+}
+.trang-tri-uppercase{
+    text-transform:uppercase;/*viết hoa toàn bộ chữ cái*/
+}
+.trang-tri-lowercase{
+    text-transform: lowercase;/*viết chữ thường hết*/
+}

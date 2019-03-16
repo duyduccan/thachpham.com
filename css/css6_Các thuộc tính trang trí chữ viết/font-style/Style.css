@@ -1,0 +1,9 @@
+.italic{
+    font-style:italic;/*chữ in nghiêng*/
+}
+.oblique{
+    font-style:oblique;/*chữ in nghiêng*/
+}
+.normal{
+    font-style:normal;/*chữ bình thường*/
+}

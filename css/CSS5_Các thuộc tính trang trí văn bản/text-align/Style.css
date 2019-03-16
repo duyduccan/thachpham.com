@@ -1,0 +1,12 @@
+.trang-tri-left{
+    text-align: left;/*căn trái văn bản*/
+}
+.trang-tri-right{
+    text-align:right;/*căn phải văn bản*/
+}
+.trang-tri-center{
+    text-align: center;/*căn giữa văn bản*/
+}
+.trang-tri-justify{
+    text-align:justify;/*căn đều văn bản*/
+}

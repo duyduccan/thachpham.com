@@ -1,0 +1,9 @@
+.trang-tri-overline{
+    text-decoration: overline;/*gạch trên đầu văn bản*/
+}
+.trang-tri-line-through{
+    text-decoration:line-through;/*gạch giữa văn bản*/
+}
+.trang-tri-none{
+    text-decoration: none;/*không trang trí văn bản*/
+}

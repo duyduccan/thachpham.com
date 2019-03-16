@@ -1,0 +1,7 @@
+.trang-tri-shadow{
+    text-shadow: blue 2px 3px 4px;/*màu sắc tọa độ x y  độ mờ*/
+}
+.trang-tri-shadow1{
+    text-shadow:blue 2px 3px 4px, red 2px 1px 3px;
+}
+
