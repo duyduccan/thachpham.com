@@ -1,0 +1,32 @@
+
+#menu ul{
+    list-style-type:none;/*bỏ chấm tròn đầu dòng*/
+    background-color: #78B43D;
+    text-align: center;/*căn giữa theo chiều ngang*/
+}
+
+#menu ul li {
+    display: inline-table;/*dãn thành 1 dòng liền nhau*/
+    width: 105px;
+    height:40px;
+    line-height: 40px;/*căn giữa theo chiều dọc*/
+    position: relative;
+}
+#menu ul li a{
+    color:#ffffff;
+    text-decoration: none;/*bỏ gạch chân*/
+    display:block;
+}
+
+#menu ul li a:hover{
+    background-color:#609A26;
+}
+
+#menu ul li > .sub-menu{
+    display:none;
+    position:absolute;
+}
+
+#menu ul li:hover .sub-menu{
+    display:block;
+}

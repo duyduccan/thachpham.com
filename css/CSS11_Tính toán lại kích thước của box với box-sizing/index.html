@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*
+        dấu * chọn tất cả các phần tử
+        box-sizing: border-box; thuộc tính css3
+        để nếu width= 500px, height=500px
+        thì nếu content + padding + border = 500px,
+        tăng padding thì content giảm*/
+        *{
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;/*fifox phiên bản của sd dc*/
+            -webkit-box-sizing: border-box;/*google chrom, opera phiên bản của sd dc*/
+        }
+        div{
+            width: 500px;
+            height: 500px;
+            padding:20px;
+            border: 5px solid black;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
