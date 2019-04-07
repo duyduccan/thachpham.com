@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#menu ul{
+    list-style-type: none;
+    background: green;
+    text-align: center;
+}
+#menu ul li{
+    display: inline-table;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#menu ul li a:hover{
+    background: greenyellow;
+}
+#menu ul li > .sub-menu{
+    display: none;
+    position: absolute;
+}
+#menu ul li:hover .sub-menu{
+    display: block;
+}
+
+
+
+
